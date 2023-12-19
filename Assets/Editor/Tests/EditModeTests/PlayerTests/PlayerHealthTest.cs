@@ -10,7 +10,7 @@ using UnityEngine;
 using Zenject;
 
 
-namespace AsteroidsGame.Tests.Editor.Player
+namespace AsteroidsGame.Tests.EditMode.Player
 {
     [TestFixture]
     public class PlayerHealthTests : ZenjectUnitTestFixture
