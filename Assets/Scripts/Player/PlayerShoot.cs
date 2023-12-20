@@ -2,7 +2,7 @@ using System;
 
 using AsteroidsGame.Bullets;
 using AsteroidsGame.Data.Types;
-using AsteroidsGame.Input;
+using AsteroidsGame.InputHandler;
 using AsteroidsGame.Services;
 
 using UnityEngine;

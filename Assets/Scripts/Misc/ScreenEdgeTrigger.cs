@@ -28,6 +28,9 @@ namespace AsteroidsGame
 
         void WrapObject(GameObject obj)
         {
+            if (!this.gameObject.activeInHierarchy || _Camera == null)
+                return;
+
             if (obj != null)
             {
                 Vector3 objPosition = obj.transform.position;

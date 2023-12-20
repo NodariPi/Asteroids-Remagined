@@ -1,6 +1,6 @@
 using System;
 
-using AsteroidsGame.Input;
+using AsteroidsGame.InputHandler;
 
 using UnityEngine;
 

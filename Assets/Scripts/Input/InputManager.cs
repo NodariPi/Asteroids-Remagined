@@ -1,27 +1,27 @@
 using UnityEngine;
 
-namespace AsteroidsGame.Input
+namespace AsteroidsGame.InputHandler
 {
     public class InputManager : IInputManager
     {
         public Vector3 GetAimingPosition()
         {
-            return UnityEngine.Input.mousePosition;
+            return Input.mousePosition;
         }
 
         public float GetThrottle()
         {
-            return UnityEngine.Input.GetKey(KeyCode.W) ? 1f : 0f;
+            return Input.GetKey(KeyCode.W) ? 1f : 0f;
         }
 
         public bool GetFireButton()
         {
-            return UnityEngine.Input.GetMouseButtonDown(0);
+            return Input.GetMouseButtonDown(0);
         }
 
         public bool GetWarpDriveButton()
         {
-            return UnityEngine.Input.GetKeyDown(KeyCode.LeftShift);
+            return Input.GetKeyDown(KeyCode.LeftShift);
         }
     }
 }

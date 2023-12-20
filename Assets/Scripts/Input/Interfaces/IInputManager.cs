@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace AsteroidsGame.Input
+namespace AsteroidsGame.InputHandler
 {
     public interface IInputManager
     {
