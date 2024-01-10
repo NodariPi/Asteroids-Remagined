@@ -17,7 +17,7 @@ This rendition of the classic Asteroids game introduces slight modifications to 
 * [NSubstitute](https://github.com/Thundernerd/Unity3D-NSubstitute)
 
 ## Credits
-* [Galagian - Space Shooter, 3D prerender, ships, background, UI](https://opengameart.org/content/galagian-space-shooter-3d-prerender-ships-backgruond-ui)
+* [Space Game Art Pack (Extended)](https://opengameart.org/content/space-game-art-pack-extended)
 * [Shmup Ships](https://opengameart.org/content/shmup-ships)
 * [Animated Cosmos Shader](https://assetstore.unity.com/packages/vfx/shaders/animated-cosmos-shader-155006)
 * [Sherbbs Particle Collection](https://assetstore.unity.com/packages/vfx/particles/sherbb-s-particle-collection-170798)
